@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahugo96/test.git"
+  },
+  "author": "Sanchuk Dima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahugo96/test/issues"
+  },
+  "homepage": "https://github.com/Sahugo96/test#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.4",
+    "del": "^6.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.35.2"
+  }
+}
