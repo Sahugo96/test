@@ -20,7 +20,10 @@ function browsersync() {
 
 
 function styles() {
-  return src('app/scss/style.scss')
+  return src([
+    'app/scss/slick.scss',
+    'app/scss/style.scss'
+  ])
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(concat('style.min.css'))
     .pipe(autoprefixer({
@@ -35,7 +38,6 @@ function scripts() {
   return src([
     'app/js/jquery.js',
     'app/js/slick.js',
-    'app/js/mixitup.js',
     'app/js/main.js'
   ])
   .pipe(concat('main.min.js'))
